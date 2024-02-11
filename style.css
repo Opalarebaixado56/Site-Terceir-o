@@ -1,0 +1,155 @@
+* {
+    margin: 0;              
+    padding: 0;             /*Reseta as config do css*/
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(  
+        45deg,
+        rgb(204, 189, 50) 10%,
+        rgb(224, 72, 143)      /*Coloca cor linear no site*/
+    );
+    height: 100vh;
+    color:rgb(124, 59, 107);
+}
+html {
+    font-family: 'Arial', sans-serif;   /*Coloca os textos não especificados na fonte indicada*/
+    font-weight: 500;
+}
+a {
+    text-decoration: none;      /*Retira as fontes padrões que o css integra aos textos*/
+}
+#cadastro > button {
+    border: none;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-family: Verdana, sans-serif;
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;        /*Distância das abas, nome das abas: Home, Fast food, Doces, Bebidas... */
+    gap: 3rem;
+    align-items: center;
+}
+nav {
+    max-width: 1320px;
+    margin: auto;
+    padding: 1.5rem 0rem;      /*Posição do cabeçalho*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.logo {
+    font-family: 'Times New Romam';
+    font-size: 2.2rem;        /*Declara a fonte e tamanho do logo*/
+    font-weight: 600;
+    text-transform: uppercase;
+}
+main {
+    display: flex;      /*Deixa os elementos em colunas*/
+    flex-direction: column;
+}
+#text_img_dados {
+    display: flex;
+    flex-direction: row;        /*Define a posição do texto, dados e imagem que estão no centro da página*/
+    justify-content: space-around;
+    gap: 12rem;
+    padding: 3rem 4rem;
+    max-width: 1320px;
+}
+.text_img {
+    display: flex;
+    flex-direction: column;     /*Distãncia do texto para com os dados*/
+    gap: 2rem;
+}
+.imagens_frente {
+    max-width: 75%;            /*Separa as imagens em colunas e define a distãncia delas no site*/
+    padding: 1.2rem 5rem;
+}
+.imagens_frente > figure > img {  
+    width: 100%;                    /*Define as bordas arredondadas das imagens e seu tamanho*/
+    border-radius: 0.5rem;
+} 
+#titulo {
+    font-weight: 550;       /*Fonte do título*/
+    font-size: 2.5rem;     
+}
+#subititulo {
+    font-weight: 400;       /*Fonte do subtítulo*/
+    font-size: 1.2rem;
+}
+.dados {
+    max-height: 60vh;
+    display: flex;
+    flex-direction: column;     /*Email e senha*/
+    padding: 2rem 6.5rem;
+    gap: 2rem;
+    background: rgba(255, 255, 255, 0.5);
+    color: rgb(255, 151, 31);
+    border-radius: 1rem;
+    text-align: center;
+    align-items: center;
+}
+#titulo_formulario {
+    font-size: 1.7rem;
+}
+#subtitulo_formulario {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+}
+#pergunta {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 1rem;
+}
+#pergunta > input {
+    max-width: 100%;
+    border-radius: 0.4rem;      /*Define o tamanho dos inputs*/
+    background: #ffe9f5;
+}
+#pergunta > label {
+    font-family: Arial, sans-serif;
+    font-size: 1.1rem;
+}
+#n1 {
+    background: linear-gradient(
+        45deg,
+        rgb(204, 189, 50) 10%,
+        rgb(224, 72, 143) 
+    );
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 2rem;
+    padding: 0.3rem 2rem;
+    font-size: 1.1rem;
+}
+.aviso {
+    text-align: center; 
+    font-size: 17px;              /*Centraliza o texto do rodapé*/
+    color: rgb(128, 56, 161);
+}
+.apps > #links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;      /*Separa os apps deles mesmos e das bordas*/
+}
+.tiktok {
+    max-width: 10%;
+    border-radius: 100%;
+    border: none;
+}
+.faceb {
+    max-width:13%;
+    border-radius: 100%;
+    border: none;
+} 
+.instag {
+    max-width: 5%;
+    border-radius: 100%;
+    border: none;
+}
