@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja do Terceirão</title>
+    <meta name="description" content = "Bem-vindo a loja do terceirão, aqui você terá variedades de alimentos com preços exelentes!">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <span class="logo">Terceirão</span>
+            <ul>
+                <li><a href="pagina.html">Home</a></li>
+                <li><a href="pagina.html">Fast Food</a></li>    
+                <li><a href="pagina.html">Doces</a></li>
+                <li><a href="pagina.html">Bebidas</a></li>
+                <li><a href="pagina.html">Refeições</a></li>
+            </ul>
+            <a href="pagina.html" id="cadastro"><button id="botao_cadastro">Cadastre-se</button></a>
+        </nav>
+    </header>
+    <main>
+        <section id="text_img_dados">
+            <section class="text_img">
+                <div class="texto">
+                    <h1 id="titulo">Escolha o alimento que seu estômago pede!</h1>
+                    <hr>
+                    <h4 id="subititulo">Prove dos mais variados produtos e tente escolher apenas um!</h4>
+                </div>
+                <div class="imagens_frente">
+                    <figure><img src="./Imagens/fast_food.jpg" alt="Pessoa pensando em Fast Foods"></figure>
+                </div>
+            </section>
+            <form class="dados">
+                <div class="bemvindo">
+                    <h3 id="titulo_formulario">Bem-vindo</h3>
+                    <p id="subtitulo_formulario">Digite seus dados por favor</p>
+                </div>
+                <div id="pergunta">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                    <label for="nome">Senha</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div id="botao">
+                    <button id="n1" type="submit">Login</button>
+                </div>
+            </form>
+        </section>
+        <section class="aviso">
+            <span>Nossas redes sociais:</span>
+        </section>
+    </main>
+    <footer class="apps">
+        <ul id="links">
+            <li><a href="https://www.facebook.com/McDonaldsBrasil/?locale=pt_BR"> <img class="faceb" src="./Imagens/face.png" alt="Facebook"></a></li>
+            <li><a href="https://www.instagram.com/mcdonalds_br/?hl=pt-br"><img class="instag" src="./Imagens/insta.jpg" alt="Instagram"></a></li>    
+            <li><a href="https://www.tiktok.com/@mcdonalds_br?_t=8jm7nYD8lkM&_r=1"><img class="tiktok" src="./Imagens/tiktok.jpg" alt="TikTok"></a></li>
+        </ul>
+    </footer>
+</body>
+</html>
